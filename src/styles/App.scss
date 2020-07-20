@@ -1,5 +1,14 @@
-$color: red;
-
-* {
-  color: $color;
+.content {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  button {
+    height: 5rem;
+    width: 20rem;
+    text-align: center;
+    font-size: 1.8rem;
+  }
 }
