@@ -9,7 +9,7 @@
     "prod": "webpack --mode production"
   },
   "keywords": [],
-  "author": "",
+  "author": "Sudipta",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.10.5",

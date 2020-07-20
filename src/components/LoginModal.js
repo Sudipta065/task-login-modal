@@ -1,9 +1,11 @@
 import { Button, Modal } from "react-bootstrap";
-import React from "react";
+import React, { useContext } from "react";
+import ThemeContext from "./theme-context";
 const LoginModal = (props) => {
+  const theme = useContext(ThemeContext);
   return (
     <div>
-      <Modal {...props} onHide={props.handleClose}>
+      <Modal style={theme} {...props} onHide={props.handleClose}>
         <Modal.Header closeButton>
           <Modal.Title>Login Form</Modal.Title>
         </Modal.Header>
@@ -30,7 +32,7 @@ const LoginModal = (props) => {
           </form>
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" onClick={props.handleClose}>
+          <Button style={theme} variant="secondary" onClick={props.handleClose}>
             Log In
           </Button>
         </Modal.Footer>

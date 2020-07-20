@@ -4,27 +4,19 @@ A readme file for the Login modal App
 
 ---
 
-## Available Scripts
+## Setup
 
-In the project directory, you can run:
+- `npm install`
+- Build for dev- `npm run build-dev`
+- Build for prod- `npm run build-prod`
+- Run in localhost:3000 & open in browser(auto watch)- `npm start`
 
-### `npm start`
+## What's included
 
-Runs the app in the development mode.<br />
-Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
----
+- `webpack` is used to build and bundle
+- `scss` is used as `css` pre-processor
+- `babel` is used to transpile `es6`-> `es5`
+- `bootstrap` is used for basic component styling & structure
 
 ## Learn More
 
@@ -33,6 +25,27 @@ About setting up a react app with webpack and babel-
 
 About Bootstrap modals - [https://getbootstrap.com/docs/4.0/components/modal/]
 
+## Structure
+
+```
+|-- public
+       |-- index.html{the main HTML file}
+|-- src
+
+   |-- components
+      |-- App.js {For the home page}
+      |-- LoginModal.js {For Login modal component}
+      |-- theme-context.js {For changing themes}
+   |-- styles
+      |-- App.scss {For the styling of the components in App.js}
+   |-- index.js (the entry point where the app renders the main App component)
+
+|-- .babelrc (For compiling the es6 syntaxes to es-5 and make it ready for older browsers)
+|-- webpack.config.js (for initializing the react app and run it on a local environment)
+|-- package.json (the packeges installed)
+
+
 ##Copyright
 
 © Sudipta Adhikary
+```
