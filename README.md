@@ -9,7 +9,7 @@ A readme file for the Login modal App
 - `npm install`
 - Build for dev- `npm run build-dev`
 - Build for prod- `npm run build-prod`
-- Run in localhost:3000 & open in browser(auto watch)- `npm start`
+- Run in localhost:8080 & open in browser(auto watch)- `npm start`
 
 ## What's included
 
