@@ -18,12 +18,6 @@ A readme file for the Login modal App
 - `babel` is used to transpile `es6`-> `es5`
 - `bootstrap` is used for basic component styling & structure
 
-## Learn More
-
-About setting up a react app with webpack and babel-
-[https://medium.com/@imranhsayed/set-up-react-app-with-webpack-webpack-dev-server-and-babel-from-scratch-df398174446d]
-
-About Bootstrap modals - [https://getbootstrap.com/docs/4.0/components/modal/]
 
 ## Structure
 
@@ -44,8 +38,8 @@ About Bootstrap modals - [https://getbootstrap.com/docs/4.0/components/modal/]
 |-- webpack.config.js (for initializing the react app and run it on a local environment)
 |-- package.json (the packeges installed)
 
-
-##Copyright
+```
+## Copyright
 
 © Sudipta Adhikary
-```
+
